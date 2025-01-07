@@ -1,0 +1,1216 @@
+[
+  {
+    "ScareFactor": 9,
+    "Title": "Horror Movie 0",
+    "Genre": "Thriller",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 14,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 7,
+    "Title": "Horror Movie 1",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 23,
+    "DirectorMovie": {
+      "Name": "Steven Spielberg",
+      "Birthdate": "1946-12-18T00:00:00",
+      "Age": 78
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 2,
+    "Title": "Horror Movie 2",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 13,
+    "DirectorMovie": {
+      "Name": "Christopher Nolan",
+      "Birthdate": "1970-07-30T00:00:00",
+      "Age": 54
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Will Smith",
+        "Birthdate": "1968-09-25T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 6,
+    "Title": "Horror Movie 3",
+    "Genre": "Thriller",
+    "ReleaseDate": "2024-12-28T10:36:29.9670625+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 17,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 2,
+    "Title": "Horror Movie 4",
+    "Genre": "Mystery",
+    "ReleaseDate": "2024-12-28T10:36:29.9670802+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 19,
+    "DirectorMovie": {
+      "Name": "Francis Ford Coppola",
+      "Birthdate": "1939-04-07T00:00:00",
+      "Age": 85
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 9,
+    "Title": "Horror Movie 5",
+    "Genre": "Thriller",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 18,
+    "DirectorMovie": {
+      "Name": "Steven Spielberg",
+      "Birthdate": "1946-12-18T00:00:00",
+      "Age": 78
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Will Smith",
+        "Birthdate": "1968-09-25T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 5,
+    "Title": "Horror Movie 6",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.967082+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 17,
+    "DirectorMovie": {
+      "Name": "Quentin Tarantino",
+      "Birthdate": "1963-03-27T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 8,
+    "Title": "Horror Movie 7",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 23,
+    "DirectorMovie": {
+      "Name": "Martin Scorsese",
+      "Birthdate": "1942-11-17T00:00:00",
+      "Age": 82
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 1,
+    "Title": "Horror Movie 8",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670833+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 22,
+    "DirectorMovie": {
+      "Name": "Quentin Tarantino",
+      "Birthdate": "1963-03-27T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 3,
+    "Title": "Horror Movie 9",
+    "Genre": "Mystery",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 21,
+    "DirectorMovie": {
+      "Name": "James Cameron",
+      "Birthdate": "1954-08-16T00:00:00",
+      "Age": 70
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 2,
+    "Title": "Horror Movie 10",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670846+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 23,
+    "DirectorMovie": {
+      "Name": "Ridley Scott",
+      "Birthdate": "1937-11-30T00:00:00",
+      "Age": 87
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 5,
+    "Title": "Horror Movie 11",
+    "Genre": "Thriller",
+    "ReleaseDate": "2024-12-28T10:36:29.9670851+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 17,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Will Smith",
+        "Birthdate": "1968-09-25T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 2,
+    "Title": "Horror Movie 12",
+    "Genre": "Mystery",
+    "ReleaseDate": "2024-12-28T10:36:29.9670882+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 13,
+    "DirectorMovie": {
+      "Name": "Ridley Scott",
+      "Birthdate": "1937-11-30T00:00:00",
+      "Age": 87
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 8,
+    "Title": "Horror Movie 13",
+    "Genre": "Mystery",
+    "ReleaseDate": "2024-12-28T10:36:29.9670887+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 23,
+    "DirectorMovie": {
+      "Name": "Stanley Kubrick",
+      "Birthdate": "1928-07-26T00:00:00",
+      "Age": 96
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Gal Gadot",
+        "Birthdate": "1985-04-30T00:00:00",
+        "Age": 39
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 1,
+    "Title": "Horror Movie 14",
+    "Genre": "Thriller",
+    "ReleaseDate": "2024-12-28T10:36:29.9670894+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 20,
+    "DirectorMovie": {
+      "Name": "Quentin Tarantino",
+      "Birthdate": "1963-03-27T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 10,
+    "Title": "Horror Movie 15",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670899+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 21,
+    "DirectorMovie": {
+      "Name": "Steven Spielberg",
+      "Birthdate": "1946-12-18T00:00:00",
+      "Age": 78
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 8,
+    "Title": "Horror Movie 16",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 16,
+    "DirectorMovie": {
+      "Name": "James Cameron",
+      "Birthdate": "1954-08-16T00:00:00",
+      "Age": 70
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 2,
+    "Title": "Horror Movie 17",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 16,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Gal Gadot",
+        "Birthdate": "1985-04-30T00:00:00",
+        "Age": 39
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Will Smith",
+        "Birthdate": "1968-09-25T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 5,
+    "Title": "Horror Movie 18",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 19,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 4,
+    "Title": "Horror Movie 19",
+    "Genre": "Mystery",
+    "ReleaseDate": "2024-12-28T10:36:29.9670921+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 22,
+    "DirectorMovie": {
+      "Name": "James Cameron",
+      "Birthdate": "1954-08-16T00:00:00",
+      "Age": 70
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 10,
+    "Title": "Horror Movie 20",
+    "Genre": "Horror",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 16,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      },
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 9,
+    "Title": "Horror Movie 21",
+    "Genre": "Thriller",
+    "ReleaseDate": "2024-12-28T10:36:29.9670934+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 19,
+    "DirectorMovie": {
+      "Name": "Peter Jackson",
+      "Birthdate": "1961-10-31T00:00:00",
+      "Age": 63
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 5,
+    "Title": "Horror Movie 22",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670942+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 21,
+    "DirectorMovie": {
+      "Name": "Christopher Nolan",
+      "Birthdate": "1970-07-30T00:00:00",
+      "Age": 54
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 6,
+    "Title": "Horror Movie 23",
+    "Genre": "Mystery",
+    "ReleaseDate": "2024-12-28T10:36:29.9670947+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 20,
+    "DirectorMovie": {
+      "Name": "Alfred Hitchcock",
+      "Birthdate": "1899-08-13T00:00:00",
+      "Age": 125
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Will Smith",
+        "Birthdate": "1968-09-25T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Gal Gadot",
+        "Birthdate": "1985-04-30T00:00:00",
+        "Age": 39
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 4,
+    "Title": "Horror Movie 24",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670954+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 25,
+    "DirectorMovie": {
+      "Name": "Martin Scorsese",
+      "Birthdate": "1942-11-17T00:00:00",
+      "Age": 82
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "ScareFactor": 10,
+    "Title": "Horror Movie 25",
+    "Genre": "Horror",
+    "ReleaseDate": "2024-12-28T10:36:29.9670958+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 14,
+    "DirectorMovie": {
+      "Name": "Francis Ford Coppola",
+      "Birthdate": "1939-04-07T00:00:00",
+      "Age": 85
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      }
+    ],
+    "VisitorCount": 0
+  }
+]

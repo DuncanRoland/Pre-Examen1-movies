@@ -1,0 +1,1092 @@
+[
+  {
+    "AnimationStudio": "DreamWorks",
+    "AT": 0,
+    "Title": "Animation Movie 0",
+    "Genre": "Fantasy",
+    "ReleaseDate": "2024-12-28T10:36:30.1663192+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Rich Moore",
+      "Birthdate": "1963-05-10T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 1,
+    "Title": "Animation Movie 1",
+    "Genre": "Animation",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Brad Bird",
+      "Birthdate": "1957-09-24T00:00:00",
+      "Age": 67
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 0,
+    "Title": "Animation Movie 2",
+    "Genre": "Fantasy",
+    "ReleaseDate": "2024-12-28T10:36:30.1663283+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 1,
+    "DirectorMovie": {
+      "Name": "Pete Docter",
+      "Birthdate": "1968-10-09T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 0,
+    "Title": "Animation Movie 3",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 6,
+    "DirectorMovie": {
+      "Name": "Rich Moore",
+      "Birthdate": "1963-05-10T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 0,
+    "Title": "Animation Movie 4",
+    "Genre": "Animation",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Tim Burton",
+      "Birthdate": "1958-08-25T00:00:00",
+      "Age": 66
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 1,
+    "Title": "Animation Movie 5",
+    "Genre": "Fantasy",
+    "ReleaseDate": "2024-12-28T10:36:30.166331+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 6,
+    "DirectorMovie": {
+      "Name": "Pete Docter",
+      "Birthdate": "1968-10-09T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 0,
+    "Title": "Animation Movie 6",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 1,
+    "DirectorMovie": {
+      "Name": "Pete Docter",
+      "Birthdate": "1968-10-09T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Disney",
+    "AT": 1,
+    "Title": "Animation Movie 7",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 0,
+    "Title": "Animation Movie 8",
+    "Genre": "Family",
+    "ReleaseDate": "2024-12-28T10:36:30.1663384+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Rich Moore",
+      "Birthdate": "1963-05-10T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 1,
+    "Title": "Animation Movie 9",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Brad Bird",
+      "Birthdate": "1957-09-24T00:00:00",
+      "Age": 67
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 0,
+    "Title": "Animation Movie 10",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 1,
+    "DirectorMovie": {
+      "Name": "Rich Moore",
+      "Birthdate": "1963-05-10T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "DreamWorks",
+    "AT": 1,
+    "Title": "Animation Movie 11",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 4,
+    "DirectorMovie": {
+      "Name": "Brad Bird",
+      "Birthdate": "1957-09-24T00:00:00",
+      "Age": 67
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Ryan Reynolds",
+        "Birthdate": "1976-10-23T00:00:00",
+        "Age": 48
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 1,
+    "Title": "Animation Movie 12",
+    "Genre": "Animation",
+    "ReleaseDate": "2024-12-28T10:36:30.1663414+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 2,
+    "DirectorMovie": {
+      "Name": "Byron Howard",
+      "Birthdate": "1968-12-26T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Johnny Depp",
+        "Birthdate": "1963-06-09T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 0,
+    "Title": "Animation Movie 13",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Rich Moore",
+      "Birthdate": "1963-05-10T00:00:00",
+      "Age": 61
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 0,
+    "Title": "Animation Movie 14",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 1,
+    "DirectorMovie": {
+      "Name": "John Lasseter",
+      "Birthdate": "1957-01-12T00:00:00",
+      "Age": 67
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 0,
+    "Title": "Animation Movie 15",
+    "Genre": "Animation",
+    "ReleaseDate": "2024-12-28T10:36:30.1663433+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 4,
+    "DirectorMovie": {
+      "Name": "Brad Bird",
+      "Birthdate": "1957-09-24T00:00:00",
+      "Age": 67
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      },
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      },
+      {
+        "Awards": 0,
+        "Name": "Cate Blanchett",
+        "Birthdate": "1969-05-14T00:00:00",
+        "Age": 55
+      },
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Gal Gadot",
+        "Birthdate": "1985-04-30T00:00:00",
+        "Age": 39
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Evans",
+        "Birthdate": "1981-06-13T00:00:00",
+        "Age": 43
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 0,
+    "Title": "Animation Movie 16",
+    "Genre": "Animation",
+    "ReleaseDate": "2024-12-28T10:36:30.1663445+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 4,
+    "DirectorMovie": {
+      "Name": "Tim Burton",
+      "Birthdate": "1958-08-25T00:00:00",
+      "Age": 66
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 1,
+    "Title": "Animation Movie 17",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 1,
+    "DirectorMovie": {
+      "Name": "Pete Docter",
+      "Birthdate": "1968-10-09T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 0,
+    "Title": "Animation Movie 18",
+    "Genre": "Animation",
+    "ReleaseDate": "2024-12-28T10:36:30.1663459+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 6,
+    "DirectorMovie": {
+      "Name": "Byron Howard",
+      "Birthdate": "1968-12-26T00:00:00",
+      "Age": 56
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Angelina Jolie",
+        "Birthdate": "1975-06-04T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Sandra Bullock",
+        "Birthdate": "1964-07-26T00:00:00",
+        "Age": 60
+      },
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Robert De Niro",
+        "Birthdate": "1943-08-17T00:00:00",
+        "Age": 81
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      },
+      {
+        "Awards": 0,
+        "Name": "Anne Hathaway",
+        "Birthdate": "1982-11-12T00:00:00",
+        "Age": 42
+      },
+      {
+        "Awards": 0,
+        "Name": "Chris Hemsworth",
+        "Birthdate": "1983-08-11T00:00:00",
+        "Age": 41
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Studio Ghibli",
+    "AT": 0,
+    "Title": "Animation Movie 19",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 4,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Disney",
+    "AT": 1,
+    "Title": "Animation Movie 20",
+    "Genre": "Family",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 5,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "DreamWorks",
+    "AT": 1,
+    "Title": "Animation Movie 21",
+    "Genre": "Animation",
+    "ReleaseDate": "2024-12-28T10:36:30.1663479+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Morgan Freeman",
+        "Birthdate": "1937-06-01T00:00:00",
+        "Age": 87
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Blue Sky Studios",
+    "AT": 0,
+    "Title": "Animation Movie 22",
+    "Genre": "Fantasy",
+    "ReleaseDate": "2024-12-28T10:36:30.1663512+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 4,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Julia Roberts",
+        "Birthdate": "1967-10-28T00:00:00",
+        "Age": 57
+      },
+      {
+        "Awards": 0,
+        "Name": "Denzel Washington",
+        "Birthdate": "1954-12-28T00:00:00",
+        "Age": 70
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Disney",
+    "AT": 0,
+    "Title": "Animation Movie 23",
+    "Genre": "Family",
+    "ReleaseDate": "2024-12-28T10:36:30.1663517+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Andrew Stanton",
+      "Birthdate": "1965-12-03T00:00:00",
+      "Age": 59
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      },
+      {
+        "Awards": 0,
+        "Name": "Leonardo DiCaprio",
+        "Birthdate": "1974-11-11T00:00:00",
+        "Age": 50
+      },
+      {
+        "Awards": 0,
+        "Name": "Brad Pitt",
+        "Birthdate": "1963-12-18T00:00:00",
+        "Age": 61
+      },
+      {
+        "Awards": 0,
+        "Name": "Tom Hanks",
+        "Birthdate": "1956-07-09T00:00:00",
+        "Age": 68
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Pixar",
+    "AT": 1,
+    "Title": "Animation Movie 24",
+    "Genre": "Fantasy",
+    "ReleaseDate": "0001-01-01T00:00:00",
+    "ReleaseYear": 1,
+    "MinAge": 6,
+    "DirectorMovie": {
+      "Name": "Chris Buck",
+      "Birthdate": "1958-02-24T00:00:00",
+      "Age": 66
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Jennifer Lawrence",
+        "Birthdate": "1990-08-15T00:00:00",
+        "Age": 34
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Natalie Portman",
+        "Birthdate": "1981-06-09T00:00:00",
+        "Age": 43
+      }
+    ],
+    "VisitorCount": 0
+  },
+  {
+    "AnimationStudio": "Disney",
+    "AT": 0,
+    "Title": "Animation Movie 25",
+    "Genre": "Fantasy",
+    "ReleaseDate": "2024-12-28T10:36:30.1663532+01:00",
+    "ReleaseYear": 2024,
+    "MinAge": 3,
+    "DirectorMovie": {
+      "Name": "Hayao Miyazaki",
+      "Birthdate": "1941-01-05T00:00:00",
+      "Age": 83
+    },
+    "Actors": [
+      {
+        "Awards": 0,
+        "Name": "Hugh Jackman",
+        "Birthdate": "1968-10-12T00:00:00",
+        "Age": 56
+      },
+      {
+        "Awards": 0,
+        "Name": "Matt Damon",
+        "Birthdate": "1970-10-08T00:00:00",
+        "Age": 54
+      },
+      {
+        "Awards": 0,
+        "Name": "Meryl Streep",
+        "Birthdate": "1949-06-22T00:00:00",
+        "Age": 75
+      },
+      {
+        "Awards": 0,
+        "Name": "Emma Stone",
+        "Birthdate": "1988-11-06T00:00:00",
+        "Age": 36
+      },
+      {
+        "Awards": 0,
+        "Name": "Scarlett Johansson",
+        "Birthdate": "1984-11-22T00:00:00",
+        "Age": 40
+      },
+      {
+        "Awards": 0,
+        "Name": "Charlize Theron",
+        "Birthdate": "1975-08-07T00:00:00",
+        "Age": 49
+      }
+    ],
+    "VisitorCount": 0
+  }
+]
