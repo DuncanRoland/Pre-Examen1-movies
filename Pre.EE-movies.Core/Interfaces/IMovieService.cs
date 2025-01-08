@@ -7,7 +7,7 @@ public interface IMovieService
     // use Linq
     public Movie GetMovieByTitle(string title)
     {
-        return 
+        throw new NotImplementedException();
     }
     
     public Movie GetMovieWithMostVisitors()
@@ -44,5 +44,4 @@ public interface IMovieService
     {
         throw new NotImplementedException();
     }
-    
 }

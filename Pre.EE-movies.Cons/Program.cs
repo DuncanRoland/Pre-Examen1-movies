@@ -29,9 +29,9 @@ class Program
         DisplayMovieDetails(fridayThe13th);
         
         
-        // create cinema
+        /*// create cinema
         Cinema cinema1 = new Cinema("Kinepolis");
-        cinema1.AddMovie(surfsUp);
+        cinema1.AddMovie(surfsUp);*/
 
     }
 
