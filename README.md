@@ -7,7 +7,7 @@ Opleiding **Graduaat programmeren**
 Opleidingsonderdeel **Programming expert (PRE)**
 ---
 
-Lector: Tibo Van Craenenbroeck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nagelezen door:
+Lector: Tibo Van Craenenbroeck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nagelezen door: Cindy Bonduelle
 ---
 
 Academiejaar **2024-2025 – JH1**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trajectschijf 1
