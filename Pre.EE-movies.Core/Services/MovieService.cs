@@ -1,8 +1,9 @@
-﻿using Pre.EE_movies.Core.Movies;
+﻿using Pre.EE_movies.Core.Interfaces;
+using Pre.EE_movies.Core.Movies;
 
 namespace Pre.EE_movies.Core.Services;
 
-public class MovieService : Movie
+public class MovieService : Movie, IMovieService
 {
     private List<Movie> movies { get; }
     
