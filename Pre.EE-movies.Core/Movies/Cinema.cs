@@ -1,4 +1,5 @@
-﻿using Pre.EE_movies.DLL.Interfaces;
+﻿using Pre.EE_movies.Core.Services;
+using Pre.EE_movies.DLL.Interfaces;
 using Pre.EE_movies.Interfaces;
 
 namespace Pre.EE_movies.Core.Movies;

@@ -2,7 +2,7 @@
 
 namespace Pre.EE_movies.Core.Movies;
 
-public class Movies : Director , IMovie
+public class Movie : Director , IMovie
 {
     public string Title { get; set; }
     public string Genre { get; set; }
@@ -12,7 +12,7 @@ public class Movies : Director , IMovie
     public List<Actor> Actors { get; }
     public int VisitorCount { get; set; }
 
-    public Movies(string title, string genre, DateTime releaseDate, int minAge, Director directorMovie) 
+    public Movie(string title, string genre, DateTime releaseDate, int minAge, Director directorMovie) 
     {
         Title = title;
         Genre = genre;
