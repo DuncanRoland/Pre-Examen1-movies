@@ -13,4 +13,10 @@
     <ProjectReference Include="..\Pre.EE-movies.DLL\Pre.EE-movies.DLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Pre.EE-movies.DLL">
+      <HintPath>..\Pre.EE-movies.DLL\Pre.EE-movies.DLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
