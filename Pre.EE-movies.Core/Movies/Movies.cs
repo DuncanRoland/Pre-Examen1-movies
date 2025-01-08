@@ -12,7 +12,7 @@ public class Movies : Director , IMovie
     public List<Actor> Actors { get; }
     public int VisitorCount { get; set; }
 
-    public Movies(string title, string genre, DateTime releaseDate, int minAge, Director directorMovie)
+    public Movies(string title, string genre, DateTime releaseDate, int minAge, Director directorMovie) 
     {
         Title = title;
         Genre = genre;
