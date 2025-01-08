@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pre.EE-movies.Core\Pre.EE-movies.Core.csproj" />
+    <ProjectReference Include="..\Pre.EE-movies.DLL\Pre.EE-movies.DLL.csproj" />
+  </ItemGroup>
+
 </Project>
