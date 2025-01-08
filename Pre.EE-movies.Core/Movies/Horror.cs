@@ -7,5 +7,7 @@ public class Horror : Movie
     public Horror(string title, string genre, DateTime releaseDate, int minAge, Director directorMovie, int scareFactor) : base(title, genre, releaseDate, minAge, directorMovie)
     {
         ScareFactor = scareFactor;
+        
     }
+    
 }
