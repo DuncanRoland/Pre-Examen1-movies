@@ -36,14 +36,14 @@ Veel succes!
 ## Doelstellingen
 - Delegates en lambda expressies
 - Linq queries
-- Klassendiagrammen (UML)
+- Klassendiagrammen (UML)````````````````````
 - Design patterns
 - Extension methods
 - Events (incl. eigen events)
 - Streams (IO) en asynchroon programmeren
 
 ## UML-schema
-![Klassendiagram](opgave/uml-schema.png)
+![Klassendiagram](opgave/uml-sche``ma.png)
 ## Uitwerking
 ### Algemeen
 Het klassendiagram moet exact nagemaakt worden op basis van de geziene leerstof. 

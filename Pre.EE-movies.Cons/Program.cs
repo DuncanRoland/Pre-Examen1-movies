@@ -42,6 +42,9 @@ class Program
         // Director watches movies
         director.WatchMovie(surfsUp);
         director.WatchMovie(inception);
+        
+        Actor actor = new Actor("John Doe", new DateTime(1990, 3, 15));
+        actor.WatchMovie(fridayThe13Th);
     }
 
     private void DisplayMovieDetails(Movie movie)
