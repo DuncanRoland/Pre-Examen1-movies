@@ -11,7 +11,12 @@ public class Actor : Person
         AwardsCount = 0;
     }
 
-    public int AddAward(int award ) => AwardsCount + award;
+    public void AddAward(int award)
+    {
+        if (award <= 0)
+            throw new ArgumentException("Award must be greater than 0");
+        AwardsCount += award;
+    }
 
     public override string WatchMovie(IMovie movie)
     {
