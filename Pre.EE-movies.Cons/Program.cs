@@ -16,23 +16,26 @@ class Program
     {
         // Create a director
         Director director = new Director("Henk Deboer", new DateTime(2000, 1, 1));
-        Director directorHorror = new Director("Stanley Kubrick", new DateTime(1980, 5, 16));
 
-        // Create movies
+        // Test CreateNewMovie method
+        var newMovie = director.CreateNewMovie(
+            "Random Movie",
+            "Adventure",
+            10
+        );
+
+        // Display the created movie details
+        DisplayMovieDetails((Movie)newMovie);
+
+        // Existing code...
         Movie surfsUp = new Animation("SurfsUp", "Family, Animation", new DateTime(2006, 1, 1), 6, director, "Pixar", AnimationType.ThreeD);
         Movie inception = new Movie("Inception", "Sci-Fi", new DateTime(2010, 7, 16), 13, director);
-        Movie fridayThe13th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7 );
+        Director directorHorror = new Director("Stanley Kubrick", new DateTime(1980, 5, 16));
+        Movie fridayThe13Th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7 );
 
-        // Display movie details
         DisplayMovieDetails(surfsUp);
         DisplayMovieDetails(inception);
-        DisplayMovieDetails(fridayThe13th);
-        
-        
-        /*// create cinema
-        Cinema cinema1 = new Cinema("Kinepolis");
-        cinema1.AddMovie(surfsUp);*/
-
+        DisplayMovieDetails(fridayThe13Th);
     }
 
     private void DisplayMovieDetails(Movie movie)
