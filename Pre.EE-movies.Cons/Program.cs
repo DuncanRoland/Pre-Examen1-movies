@@ -56,10 +56,16 @@ class Program
         Console.WriteLine($"Release year Inception : {inception.GetReleaseYear()}");
        
         // Release a movie
-        Movie movie = new Movie("Tokyo Drift", "Action", DateTime.Now.AddDays(10), 10, director);
-        Console.WriteLine($"Before release: {movie.ReleaseDate}");
-        movie.ReleaseMovie();
-        Console.WriteLine($"After release: {movie.ReleaseDate}");
+        Movie tokyoDrift = new Movie("Tokyo Drift", "Action", DateTime.Now.AddDays(10), 10, director);
+        Console.WriteLine($"Before release: {tokyoDrift.ReleaseDate}");
+        tokyoDrift.ReleaseMovie();
+        Console.WriteLine($"After release: {tokyoDrift.ReleaseDate}");
+        
+        // Visitor count tests
+        tokyoDrift.SetVisitorCount(100);
+        Console.WriteLine($"Visitor count: {tokyoDrift.VisitorCount}");
+        tokyoDrift.SetVisitorCount(1000);
+        Console.WriteLine($"Visitor count: {tokyoDrift.VisitorCount}");
     }
 
     private void DisplayMovieDetails(Movie movie)

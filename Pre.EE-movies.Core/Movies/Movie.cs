@@ -43,4 +43,17 @@ public class Movie : IMovie
         }
         ReleaseDate = DateTime.Now;
     }
+
+    public void SetVisitorCount(int newVisitorCount)
+    {
+        if (newVisitorCount < 0)
+        {
+            throw new ArgumentException("Visitor count cannot be less than 0.");
+        }
+        if (newVisitorCount < VisitorCount)
+        {
+            throw new ArgumentException("Visitor count cannot be less than the previous visitor count.");
+        }
+        VisitorCount = newVisitorCount;
+    }
 }
