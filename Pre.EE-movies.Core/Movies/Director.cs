@@ -11,9 +11,18 @@ public class Director : Person
     {
     }
 
+    /*- **Title Extraction**:
+    `string title = (movie as Movie)?.Title ?? "Unknown";`
+        - Attempts to cast the object to the type . `movie``Movie`
+    - If the cast is successful, retrieves the property. `Title`
+    - If the cast fails or is `null`, uses the string as a fallback. `movie``"Unknown"`*/
+
     public override string WatchMovie(IMovie movie)
     {
-        throw new NotImplementedException();
+        string title = (movie as Movie)?.Title ?? "Unknown";
+        string message = $"Director {Name} is watching {title}";
+        Console.WriteLine(message);
+        return message;
     }
 
     public IMovie CreateNewMovie(string title, string genre, int minAge)
