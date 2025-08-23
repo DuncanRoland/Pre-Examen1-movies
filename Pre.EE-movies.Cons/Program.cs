@@ -25,35 +25,40 @@ class Program
             10
         );
 
-      
 
         // Existing code...
-        Movie surfsUp = new Animation("SurfsUp", "Family, Animation", new DateTime(2006, 1, 1), 6, director, "Pixar", AnimationType.ThreeD);
+        Movie surfsUp = new Animation("SurfsUp", "Family, Animation", new DateTime(2006, 1, 1), 6, director, "Pixar",
+            AnimationType.ThreeD);
         Movie inception = new Movie("Inception", "Sci-Fi", new DateTime(2010, 7, 16), 13, director);
+
+        Movie fridayThe13Th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7);
        
-        Movie fridayThe13Th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7 );
-  
+        inception.Actors.Add(new Actor("Guust Vermandere", new DateTime(1990, 3, 15)));
         // Display the created movie details
         DisplayMovieDetails((Movie)newMovie);
         DisplayMovieDetails(surfsUp);
         DisplayMovieDetails(inception);
         DisplayMovieDetails(fridayThe13Th);
-        
+
         // Director watches movies
         director.WatchMovie(surfsUp);
         director.WatchMovie(inception);
-        
+
         // Create an actor and have them watch movies
         Actor actor = new Actor("John Doe", new DateTime(1990, 3, 15));
         actor.WatchMovie(fridayThe13Th);
-        
+
         // Add awards and watch another movie
         actor.AddAward(10);
         actor.WatchMovie(surfsUp);
+        
+        // Movie tests
+        Console.WriteLine($"Release year Inception : {inception.GetReleaseYear()}");
     }
 
     private void DisplayMovieDetails(Movie movie)
     {
-        Console.WriteLine($"Movie: {movie.Title}, Genre: {movie.Genre}, Release Date: {movie.ReleaseDate.ToShortDateString()}, Min Age: {movie.MinAge}, Director: {movie.DirectorMovie.Name}");
+        Console.WriteLine(
+            $"Movie: {movie.Title}, Genre: {movie.Genre}, Release Date: {movie.ReleaseDate.ToShortDateString()}, Min Age: {movie.MinAge}, Director: {movie.DirectorMovie.Name}, Actors: {string.Join(", ", movie.Actors.ConvertAll(a => a.Name))}");
     }
 }
