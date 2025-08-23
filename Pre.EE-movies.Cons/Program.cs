@@ -32,7 +32,7 @@ class Program
         Movie inception = new Movie("Inception", "Sci-Fi", new DateTime(2010, 7, 16), 13, director);
 
         Movie fridayThe13Th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7);
-       
+
         inception.AddActor(new Actor("Guust Vermandere", new DateTime(1990, 3, 15)));
         // Display the created movie details
         DisplayMovieDetails((Movie)newMovie);
@@ -51,21 +51,30 @@ class Program
         // Add awards and watch another movie
         actor.AddAward(10);
         actor.WatchMovie(surfsUp);
-        
+
         // Movie tests
         Console.WriteLine($"Release year Inception : {inception.GetReleaseYear()}");
-       
+
         // Release a movie
         Movie tokyoDrift = new Movie("Tokyo Drift", "Action", DateTime.Now.AddDays(10), 10, director);
         Console.WriteLine($"Before release: {tokyoDrift.ReleaseDate}");
         tokyoDrift.ReleaseMovie();
         Console.WriteLine($"After release: {tokyoDrift.ReleaseDate}");
-        
+
         // Visitor count tests
         tokyoDrift.SetVisitorCount(100);
         Console.WriteLine($"Visitor count: {tokyoDrift.VisitorCount}");
         tokyoDrift.SetVisitorCount(1000);
         Console.WriteLine($"Visitor count: {tokyoDrift.VisitorCount}");
+
+        // Movie sort test
+        List<Movie> movies = new List<Movie> { inception, surfsUp, fridayThe13Th, tokyoDrift };
+        movies.Sort();
+        Console.WriteLine("Movies sorted by release date:");
+        foreach (var movie in movies)
+        {
+            Console.WriteLine($"{movie.Title} - {movie.ReleaseDate.ToShortDateString()}");
+        }
     }
 
     private void DisplayMovieDetails(Movie movie)
