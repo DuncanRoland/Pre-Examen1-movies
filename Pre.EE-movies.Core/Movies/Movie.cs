@@ -37,5 +37,10 @@ public class Movie : IMovie
 
     public void ReleaseMovie()
     {
+        if (ReleaseDate <= DateTime.Now)
+        {
+            throw new Exception("The movie has already been released.");
+        }
+        ReleaseDate = DateTime.Now;
     }
 }

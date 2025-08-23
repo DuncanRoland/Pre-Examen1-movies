@@ -54,6 +54,12 @@ class Program
         
         // Movie tests
         Console.WriteLine($"Release year Inception : {inception.GetReleaseYear()}");
+       
+        // Release a movie
+        Movie movie = new Movie("Tokyo Drift", "Action", DateTime.Now.AddDays(10), 10, director);
+        Console.WriteLine($"Before release: {movie.ReleaseDate}");
+        movie.ReleaseMovie();
+        Console.WriteLine($"After release: {movie.ReleaseDate}");
     }
 
     private void DisplayMovieDetails(Movie movie)
