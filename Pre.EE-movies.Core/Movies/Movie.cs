@@ -27,12 +27,15 @@ public class Movie : IMovie
         return ReleaseDate.Year;
     }
 
-    /*public AddActor(Actor actor)
+    public void AddActor(Actor actor)
     {
-    }*/
+        if (!Actors.Contains(actor))
+        {
+            Actors.Add(actor);
+        }
+    }
 
     public void ReleaseMovie()
     {
-        
     }
 }

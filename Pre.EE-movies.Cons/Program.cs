@@ -33,7 +33,7 @@ class Program
 
         Movie fridayThe13Th = new Horror("fridayThe13th", "Horror", new DateTime(2010, 7, 16), 13, directorHorror, 7);
        
-        inception.Actors.Add(new Actor("Guust Vermandere", new DateTime(1990, 3, 15)));
+        inception.AddActor(new Actor("Guust Vermandere", new DateTime(1990, 3, 15)));
         // Display the created movie details
         DisplayMovieDetails((Movie)newMovie);
         DisplayMovieDetails(surfsUp);
