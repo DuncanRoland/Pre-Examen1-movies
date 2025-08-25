@@ -78,12 +78,58 @@ class Program
         {
             Console.WriteLine($"{movie.Title} - {movie.ReleaseDate.ToShortDateString()}");
         }
-        
+
         // Horror test
         Horror horrorMovie = new Horror("Scary Movie", "Horror", new DateTime(2020, 10, 31), 18, director, 8); // VALID
         //Horror horrorMovieInvalid = new Horror("Bad Example", "Horror", DateTime.Now, 18, director, 15); // THROWS EXCEPTION           
         Console.WriteLine($"Horror Movie: {horrorMovie.Title}, Scare Factor: {horrorMovie.ScareFactor}");
         // Console.WriteLine($"Horror Movie: {horrorMovieInvalid.Title}, Scare Factor: {horrorMovieInvalid.ScareFactor}");
+
+
+        // Create unreleased movie
+        Movie tripleX = new Movie("tripleX", "Action", DateTime.Now.AddDays(10), 10, director);
+
+// Movieservice tests
+        List<Movie> movieList = new List<Movie>();
+        MovieService movieService = new MovieService("Service", "Service", DateTime.Now, 0, director, movieList);
+
+// Add a released movie
+        try
+        {
+            movieService.AddMovie(inception);
+            Console.WriteLine("Inception added successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to add Inception: {ex.Message}");
+        }
+
+// Try to add the same movie again (should fail)
+        try
+        {
+            movieService.AddMovie(inception);
+            Console.WriteLine("Inception added again (unexpected).");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Duplicate add failed as expected: {ex.Message}");
+        }
+
+// Try to add an unreleased movie (should fail)
+        try
+        {
+            movieService.AddMovie(tripleX);
+            Console.WriteLine("Tokyo Drift added (unexpected).");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Unreleased add failed as expected: {ex.Message}");
+        }
+
+// Now release the movie and continue with other tests
+        Console.WriteLine($"Before release: {tripleX.ReleaseDate}");
+        tripleX.ReleaseMovie();
+        Console.WriteLine($"After release: {tripleX.ReleaseDate}");
     }
 
     private void DisplayMovieDetails(Movie movie)
