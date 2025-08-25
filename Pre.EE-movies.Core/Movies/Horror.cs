@@ -1,6 +1,4 @@
-﻿using Pre.EE_movies.Core.Movies;
-
-namespace Pre.EE_movies.Core.Extensions;
+﻿namespace Pre.EE_movies.Core.Movies;
 
 public class Horror : Movie
 {
