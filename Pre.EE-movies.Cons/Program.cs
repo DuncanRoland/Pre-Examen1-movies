@@ -9,11 +9,11 @@ namespace Pre.EE_movies.Cons;
 
 class Program
 {
-    /*static void Main(string[] args)
+    static void Main(string[] args)
     {
         Program program = new Program();
         program.Run();
-    }*/
+    }
 
     private void Run()
     {
