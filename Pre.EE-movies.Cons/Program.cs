@@ -50,6 +50,7 @@ class Program
         // Create an actor and have them watch movies
         Actor actor = new Actor("John Doe", new DateTime(1990, 3, 15));
         actor.WatchMovie(fridayThe13Th);
+        inception.AddActor(actor);
 
         // Add awards and watch another movie
         actor.AddAward(10);
@@ -216,7 +217,7 @@ class Program
         Movie tinkerbell = new Movie("Tinkerbell", "Drama", DateTime.Now, 12, director);
         Actor emma = new Actor("Emma Watson", new DateTime(1990, 4, 15));
         tinkerbell.AddActor(emma);
-        
+
         // Add tinkerbell to the cinema before playing it
         try
         {
@@ -254,11 +255,11 @@ class Program
         {
             Console.WriteLine($"Failed to add Interstellar: {ex.Message}");
         }
-        
+
         // PlayMovieEvent subscription
         cinema.PlayMovieEvent += cinema.ShowAds;
         cinema.PlayMovieEvent += cinema.SellFood;
-        
+
         // Play a movie to see the events in action
         try
         {
@@ -269,6 +270,76 @@ class Program
             Console.WriteLine($"Failed to play Interstellar: {ex.Message}");
         }
 
+        // more test data
+        // Add a horror movie with scare factor > 5
+        Horror horrorMovie2 = new Horror("The Shining", "Horror", new DateTime(2023, 10, 31), 16, directorHorror, 9);
+        movieService.AddMovie(horrorMovie2);
+
+// Add the test actor to another movie
+        fridayThe13Th.AddActor(actor);
+
+// Add a movie with a different director
+        Movie otherDirectorMovie = new Movie("Not Another Teen Movie", "Comedy", new DateTime(2015, 5, 20), 12, directorHorror);
+        movieService.AddMovie(otherDirectorMovie);
+
+// Add an unreleased movie
+        Movie unreleased = new Movie("Future Hit", "Action", DateTime.Now.AddDays(30), 12, director);
+        unreleased.ReleaseMovie(); // Set release date to future
+        movieService.AddMovie(unreleased);
+
+
+        // test linq queries in movieservice
+        // Test GetMovieByTitle
+        try
+        {
+            Movie movieByTitle = movieService.GetMovieByTitle("Inception");
+            Console.WriteLine("GetMovieByTitle: " + movieByTitle.Title);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("GetMovieByTitle failed: " + ex.Message);
+        }
+
+// Test GetMovieWithMostVisitors
+        Movie mostVisitors = movieService.GetMovieWithMostVisitors();
+        Console.WriteLine("GetMovieWithMostVisitors: " + mostVisitors.Title + " (" + mostVisitors.VisitorCount +
+                          " visitors)");
+
+// Test GetMoviesByActor
+        IEnumerable<Movie> moviesByActor = movieService.GetMoviesByActor(actor);
+        Console.WriteLine("GetMoviesByActor:");
+        foreach (Movie m in moviesByActor)
+            Console.WriteLine("- " + m.Title);
+
+// Test GetMoviesByDirector
+        IEnumerable<Movie> moviesByDirector = movieService.GetMoviesByDirector(director);
+        Console.WriteLine("GetMoviesByDirector:");
+        foreach (Movie m in moviesByDirector)
+            Console.WriteLine("- " + m.Title);
+
+// Test GetAllDirectors
+        IEnumerable<Director> allDirectors = movieService.GetAllDirectors();
+        Console.WriteLine("GetAllDirectors:");
+        foreach (Director d in allDirectors)
+            Console.WriteLine("- " + d.Name);
+
+// Test GetMoviesBetweenReleaseYear
+        IEnumerable<Movie> moviesBetweenYears = movieService.GetMoviesBetweenReleaseYear(2000, 2020);
+        Console.WriteLine("GetMoviesBetweenReleaseYear (2000-2020):");
+        foreach (Movie m in moviesBetweenYears)
+            Console.WriteLine("- " + m.Title + " (" + m.ReleaseDate.Year + ")");
+
+// Test GetHorrorMoviesWhereScareFactorIsGreaterThan
+        IEnumerable<Horror> horrorMovies = movieService.GetHorrorMoviesWhereScareFactorIsGreaterThan(5);
+        Console.WriteLine("GetHorrorMoviesWhereScareFactorIsGreaterThan(5):");
+        foreach (Horror h in horrorMovies)
+            Console.WriteLine("- " + h.Title + " (ScareFactor: " + h.ScareFactor + ")");
+
+// Test GetUnreleasedMovies
+        IEnumerable<Movie> unreleasedMovies = movieService.GetUnreleasedMovies();
+        Console.WriteLine("GetUnreleasedMovies:");
+        foreach (Movie m in unreleasedMovies)
+            Console.WriteLine("- " + m.Title + " (Release: " + m.ReleaseDate + ")");
     }
 
     private void DisplayMovieDetails(Movie movie)

@@ -45,4 +45,41 @@ public class MovieService : Movie, IMovieService
 
         return Movies.FirstOrDefault(m => m.Title.Equals(title, StringComparison.OrdinalIgnoreCase)) ?? throw new InvalidOperationException();
     }
+    
+    public Movie GetMovieWithMostVisitors()
+    {
+        return Movies.OrderByDescending(m => m.VisitorCount).FirstOrDefault() ?? throw new InvalidOperationException();
+    }
+
+    public IEnumerable<Movie> GetMoviesByActor(Actor actor)
+    {
+        if (actor == null) throw new ArgumentNullException(nameof(actor));
+        return Movies.Where(m => m.Actors.Contains(actor));
+    }
+
+    public IEnumerable<Movie> GetMoviesByDirector(Director director)
+    {
+        if (director == null) throw new ArgumentNullException(nameof(director));
+        return Movies.Where(m => m.DirectorMovie == director);
+    }
+
+    public IEnumerable<Director> GetAllDirectors()
+    {
+        return Movies.Select(m => m.DirectorMovie).Distinct();
+    }
+
+    public IEnumerable<Movie> GetMoviesBetweenReleaseYear(int releaseYear, int year)
+    {
+        return Movies.Where(m => m.ReleaseDate.Year >= releaseYear && m.ReleaseDate.Year <= year);
+    }
+
+    public IEnumerable<Horror> GetHorrorMoviesWhereScareFactorIsGreaterThan(int scareFactor)
+    {
+        return Movies.OfType<Horror>().Where(h => h.ScareFactor > scareFactor);
+    }
+
+    public IEnumerable<Movie> GetUnreleasedMovies()
+    {
+        return Movies.Where(m => m.ReleaseDate > DateTime.Now);
+    }
 }   

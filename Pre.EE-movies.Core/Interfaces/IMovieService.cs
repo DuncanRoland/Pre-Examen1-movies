@@ -6,39 +6,13 @@ public interface IMovieService
 {
     // use Linq
     Movie GetMovieByTitle(string title);
+
+    public Movie GetMovieWithMostVisitors();
     
-    public Movie GetMovieWithMostVisitors()
-    {
-        throw new NotImplementedException();
-    } 
-    
-    public IEnumerable<Movie> GetMoviesByActor(Actor actor)
-    {
-        throw new NotImplementedException();
-    }  
-    
-    public IEnumerable<Movie> GetMoviesByDirector(Director director)
-    {
-        throw new NotImplementedException();
-    }  
-    
-    public IEnumerable<Director> GetAllDirectors()
-    {
-        throw new NotImplementedException();
-    } 
-    
-    public IEnumerable<Movie> GetMoviesBetweenReleaseYear(int releaseYear, int year)
-    {
-        throw new NotImplementedException();
-    }
-    
-    public IEnumerable<Horror> GetHorrorMoviesWhereScareFactorIsGreaterThan(int scareFactor)
-    {
-        throw new NotImplementedException();
-    }
-    
-    public IEnumerable<Movie> GetUnreleasedMovies()
-    {
-        throw new NotImplementedException();
-    }
+    IEnumerable<Movie> GetMoviesByActor(Actor actor);
+    IEnumerable<Movie> GetMoviesByDirector(Director director);
+    IEnumerable<Director> GetAllDirectors();
+    IEnumerable<Movie> GetMoviesBetweenReleaseYear(int releaseYear, int year);
+    IEnumerable<Horror> GetHorrorMoviesWhereScareFactorIsGreaterThan(int scareFactor);
+    IEnumerable<Movie> GetUnreleasedMovies();
 }
