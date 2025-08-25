@@ -36,6 +36,21 @@ public class Cinema : ICinema
 
     public void PlayMovie(string title)
     {
-        throw new NotImplementedException();
+        if (string.IsNullOrWhiteSpace(title))
+            throw new ArgumentException("Title cannot be null or empty.", nameof(title));
+
+        // Find the movie by title using MovieService
+        var movie = MovieService.GetMovieByTitle(title);
+        if (movie == null)
+            throw new InvalidOperationException("Movie not found.");
+
+        if (movie.ReleaseDate > DateTime.Now)
+            throw new InvalidOperationException("Movie has not been released yet.");
+
+        int visitors = _random.Next(1, 101);
+        movie.VisitorCount += visitors;
+
+        var actors = string.Join(", ", movie.Actors.Select(a => a.Name));
+        Console.WriteLine($"{movie.Title} - {movie.DirectorMovie.Name}: Actors: {actors} - Number of visitors: {movie.VisitorCount}");
     }
 }

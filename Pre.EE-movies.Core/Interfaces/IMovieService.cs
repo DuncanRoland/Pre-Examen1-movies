@@ -6,10 +6,7 @@ namespace Pre.EE_movies.Core.Interfaces;
 public interface IMovieService
 {
     // use Linq
-    public Movie GetMovieByTitle(string title)
-    {
-        throw new NotImplementedException();
-    }
+    Movie GetMovieByTitle(string title);
     
     public Movie GetMovieWithMostVisitors()
     {

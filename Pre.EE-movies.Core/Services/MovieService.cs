@@ -36,6 +36,13 @@ public class MovieService : Movie, IMovieService
         Movies.Add(movie);
         
     }
-    
 
-}
+
+    public Movie GetMovieByTitle(string title)
+    {
+        if (string.IsNullOrWhiteSpace(title))
+            throw new ArgumentException("Title cannot be null or empty.", nameof(title));
+
+        return Movies.FirstOrDefault(m => m.Title.Equals(title, StringComparison.OrdinalIgnoreCase)) ?? throw new InvalidOperationException();
+    }
+}   

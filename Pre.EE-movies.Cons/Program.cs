@@ -156,7 +156,17 @@ class Program
         {
             Console.WriteLine($"Failed to add New Cinema Movie: {ex.Message}");
         }
-}
+        
+        // Test PlayMovie with an existing movie
+        try
+        {
+            cinema.PlayMovie("Inception");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to play Inception: {ex.Message}");
+        }
+    }
 
     private void DisplayMovieDetails(Movie movie)
     {
