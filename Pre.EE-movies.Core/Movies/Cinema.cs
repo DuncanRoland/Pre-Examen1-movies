@@ -1,4 +1,5 @@
-﻿using Pre.EE_movies.Core.Services;
+﻿using System.Text.Json;
+using Pre.EE_movies.Core.Services;
 using Pre.EE_movies.DLL.Interfaces;
 using Pre.EE_movies.Interfaces;
 
@@ -14,6 +15,10 @@ public class Cinema : ICinema
     public event EventHandler<Movie> GiveAwardEvent;
     public event EventHandler<NewMovieEventArgs> NewMovieEvent;
     public event EventHandler<PlayMovieEventArgs> PlayMovieEvent;
+    
+    // IO streams
+    public List<IMovie> Movies { get; private set; } = new List<IMovie>();
+
 
 
     public Cinema(string cinemaName, MovieService movieService)
@@ -40,9 +45,46 @@ public class Cinema : ICinema
         NewMovieEvent?.Invoke(this, new NewMovieEventArgs(movie, this));
     }
 
-    public List<IMovie> LoadMoviesAsync(string path, string format)
+    public async Task<List<IMovie>> LoadMoviesAsync(string path, string format)
     {
-        throw new NotImplementedException();
+        if (!File.Exists(path))
+            throw new FileNotFoundException("File not found.", path);
+
+        List<IMovie> movies = new List<IMovie>();
+
+        if (format.ToLower() == "json")
+        {
+            string json = await File.ReadAllTextAsync(path);
+            List<Movie>? loaded = JsonSerializer.Deserialize<List<Movie>>(json);
+            if (loaded != null)
+                movies.AddRange(loaded);
+        }
+        else if (format.ToLower() == "csv")
+        {
+            string[] lines = await File.ReadAllLinesAsync(path);
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(',');
+                if (parts.Length >= 5)
+                {
+                    Movie movie = new Movie(
+                        parts[0],
+                        parts[1],
+                        DateTime.Parse(parts[2]),
+                        int.Parse(parts[3]),
+                        new Director(parts[4], DateTime.Now)
+                    );
+                    movies.Add(movie);
+                }
+            }
+        }
+        else
+        {
+            throw new NotSupportedException("Format not supported: " + format);
+        }
+
+        Movies = movies;
+        return movies;
     }
 
 

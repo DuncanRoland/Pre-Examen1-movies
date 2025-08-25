@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Type": "Movie",
+    "Title": "Inception",
+    "Genre": "Sci-Fi",
+    "ReleaseDate": "2010-07-16T00:00:00",
+    "MinAge": 13,
+    "Director": {
+      "Name": "Christopher Nolan",
+      "BirthDate": "1970-07-30T00:00:00"
+    },
+    "Actors": [
+      { "Name": "Leonardo DiCaprio", "BirthDate": "1974-11-11T00:00:00" },
+      { "Name": "Joseph Gordon-Levitt", "BirthDate": "1981-02-17T00:00:00" }
+    ]
+  },
+  {
+    "Type": "Animation",
+    "Title": "Toy Story",
+    "Genre": "Animation, Family",
+    "ReleaseDate": "1995-11-22T00:00:00",
+    "MinAge": 0,
+    "Director": {
+      "Name": "John Lasseter",
+      "BirthDate": "1957-01-12T00:00:00"
+    },
+    "Actors": [
+      { "Name": "Tom Hanks", "BirthDate": "1956-07-09T00:00:00" },
+      { "Name": "Tim Allen", "BirthDate": "1953-06-13T00:00:00" }
+    ],
+    "AnimationStudio": "Pixar",
+    "AnimationType": "ThreeD"
+  },
+  {
+    "Type": "Horror",
+    "Title": "The Shining",
+    "Genre": "Horror",
+    "ReleaseDate": "1980-05-23T00:00:00",
+    "MinAge": 16,
+    "Director": {
+      "Name": "Stanley Kubrick",
+      "BirthDate": "1928-07-26T00:00:00"
+    },
+    "Actors": [
+      { "Name": "Jack Nicholson", "BirthDate": "1937-04-22T00:00:00" }
+    ],
+    "ScareFactor": 9
+  }
+]
