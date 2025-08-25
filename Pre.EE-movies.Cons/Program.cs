@@ -1,4 +1,5 @@
-﻿using Pre.EE_movies.Core.Movies;
+﻿using Pre.EE_movies.Core.Extensions;
+using Pre.EE_movies.Core.Movies;
 using Pre.EE_movies.Core.Services;
 using Pre.EE_movies.DLL.Interfaces;
 using Animation = Pre.EE_movies.Core.Movies.Animation;
@@ -155,7 +156,7 @@ class Program
         {
             Console.WriteLine($"Failed to add New Cinema Movie: {ex.Message}");
         }
-        
+
         // Test PlayMovie with an existing movie
         try
         {
@@ -164,6 +165,40 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine($"Failed to play Inception: {ex.Message}");
+        }
+
+
+// 1. Create a list of Animation objects
+        List<Animation> animations = new List<Animation>
+        {
+            new Animation("A", "Animation", DateTime.Now, 0, director, "Pixar", AnimationType.TwoD),
+            new Animation("B", "Animation", DateTime.Now, 0, director, "Pixar", AnimationType.ThreeD),
+            new Animation("C", "Animation", DateTime.Now, 0, director, "DreamWorks", AnimationType.TwoD),
+            new Animation("D", "Animation", DateTime.Now, 0, director, "", AnimationType.TwoD),
+            new Animation("E", "Animation", DateTime.Now, 0, director, null, AnimationType.TwoD)
+        };
+
+// 2. Test GetAllAnimationStudios
+        List<string> studios = animations.GetAllAnimationStudios();
+        Console.WriteLine("Distinct Animation Studios:");
+        foreach (string studio in studios)
+        {
+            Console.WriteLine(studio);
+        }
+
+// 3. Test GetAllAnimationMoviesByAnimationType
+        List<Animation> twoDAnimations = animations.GetAllAnimationMoviesByAnimationType(AnimationType.TwoD);
+        Console.WriteLine("2D Animations:");
+        foreach (Animation animation in twoDAnimations)
+        {
+            Console.WriteLine($"{animation.Title} - {animation.AnimationStudio}");
+        }
+         // 3d
+        List<Animation> threeDAnimations = animations.GetAllAnimationMoviesByAnimationType(AnimationType.ThreeD);
+        Console.WriteLine("3D Animations:");
+        foreach (Animation animation in threeDAnimations)
+        {
+            Console.WriteLine($"{animation.Title} - {animation.AnimationStudio}");
         }
     }
 
