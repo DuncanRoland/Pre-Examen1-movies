@@ -130,6 +130,20 @@ class Program
         Console.WriteLine($"Before release: {tripleX.ReleaseDate}");
         tripleX.ReleaseMovie();
         Console.WriteLine($"After release: {tripleX.ReleaseDate}");
+
+        // Cinema tests
+        
+        // Create a MovieService instance
+        List<Movie> cinemaMovies = new List<Movie> { inception, surfsUp, fridayThe13Th, tokyoDrift };
+        MovieService cinemaMovieService =
+            new MovieService("CinemaService", "Service", DateTime.Now, 1, director, cinemaMovies);
+
+// Test Cinema constructor and SetCinemaName
+        Cinema cinema = new Cinema("Kinepolis", cinemaMovieService);
+        Console.WriteLine($"Initial Cinema Name: {cinema.CinemaName}");
+
+        cinema.SetCinemaName("Cinefilm");
+        Console.WriteLine($"Updated Cinema Name: {cinema.CinemaName}");
     }
 
     private void DisplayMovieDetails(Movie movie)

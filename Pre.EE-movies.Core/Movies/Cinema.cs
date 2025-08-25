@@ -6,7 +6,7 @@ namespace Pre.EE_movies.Core.Movies;
 
 public class Cinema : ICinema
 {
-    private string CinemaName { get; set; }
+    public string CinemaName { get; set; }
     private MovieService MovieService { get; }
     private Random _random;
 
