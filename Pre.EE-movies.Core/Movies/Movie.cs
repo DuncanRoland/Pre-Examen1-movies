@@ -59,6 +59,11 @@ public class Movie : IMovie, IComparable<Movie>
 
         VisitorCount = newVisitorCount;
     }
+    
+    public void OnNewMovieAdded(object? sender, NewMovieEventArgs e)
+    {
+        Console.WriteLine($"{e.Cinema.CinemaName}: New movie: {e.Movie.Title} - {e.Movie.ReleaseDate.ToShortDateString()}!!!");
+    }
 
     public int CompareTo(Movie? other)
     {

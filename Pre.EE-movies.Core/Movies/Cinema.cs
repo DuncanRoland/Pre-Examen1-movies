@@ -12,6 +12,7 @@ public class Cinema : ICinema
 
     // Event for giving awards
     public event EventHandler<Movie> GiveAwardEvent;
+    public event EventHandler<NewMovieEventArgs> NewMovieEvent;
 
 
     public Cinema(string cinemaName, MovieService movieService)
@@ -30,6 +31,12 @@ public class Cinema : ICinema
     public void AddMovie(IMovie movie)
     {
         MovieService.AddMovie((Movie)movie);
+        OnNewMovieEvent((Movie)movie);
+    }
+    
+    protected virtual void OnNewMovieEvent(Movie movie)
+    {
+        NewMovieEvent?.Invoke(this, new NewMovieEventArgs(movie, this));
     }
 
     public List<IMovie> LoadMoviesAsync(string path, string format)

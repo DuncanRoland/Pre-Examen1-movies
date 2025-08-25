@@ -213,26 +213,46 @@ class Program
         };
 
 // Set visitor count close to 250 BEFORE playing the movie
-        inception.SetVisitorCount(245);
-
+        Movie tinkerbell = new Movie("Tinkerbell", "Drama", DateTime.Now, 12, director);
+        Actor emma = new Actor("Emma Watson", new DateTime(1990, 4, 15));
+        tinkerbell.AddActor(emma);
+        
+        // Add tinkerbell to the cinema before playing it
         try
         {
-            cinema.PlayMovie("Inception");
+            cinema.AddMovie(tinkerbell);
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Failed to play Inception: {ex.Message}");
+            Console.WriteLine($"Failed to add tinkerbell: {ex.Message}");
         }
 
-// Now set it to a higher value if needed
-        inception.SetVisitorCount(300);
+// Now you can safely play the movie
+
+
+        tinkerbell.SetVisitorCount(300);
         try
         {
-            cinema.PlayMovie("Inception");
+            cinema.PlayMovie("tinkerbell");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Failed to play Inception: {ex.Message}");
+            Console.WriteLine($"Failed to play tinkerbell: {ex.Message}");
+        }
+
+        // Subscribe to the NewMovieEvent
+        cinema.NewMovieEvent += (sender, e) => e.Movie.OnNewMovieAdded(sender, e);
+
+// Add a new movie that is not already in the cinema's list
+        Movie interstellar = new Movie("Interstellar", "Sci-Fi", DateTime.Now, 12, director);
+
+        try
+        {
+            cinema.AddMovie(interstellar);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to add Interstellar: {ex.Message}");
         }
     }
 
