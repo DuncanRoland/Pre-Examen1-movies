@@ -10,6 +10,10 @@ public class Cinema : ICinema
     private MovieService MovieService { get; }
     private Random _random;
 
+    // Event for giving awards
+    public event EventHandler<Movie> GiveAwardEvent;
+
+
     public Cinema(string cinemaName, MovieService movieService)
     {
         CinemaName = cinemaName;
@@ -22,7 +26,7 @@ public class Cinema : ICinema
     {
         CinemaName = name;
     }
-    
+
     public void AddMovie(IMovie movie)
     {
         MovieService.AddMovie((Movie)movie);
@@ -51,6 +55,25 @@ public class Cinema : ICinema
         movie.VisitorCount += visitors;
 
         var actors = string.Join(", ", movie.Actors.Select(a => a.Name));
-        Console.WriteLine($"{movie.Title} - {movie.DirectorMovie.Name}: Actors: {actors} - Number of visitors: {movie.VisitorCount}");
+        Console.WriteLine(
+            $"{movie.Title} - {movie.DirectorMovie.Name}: Actors: {actors} - Number of visitors: {movie.VisitorCount}");
+
+        // Trigger GiveAwardEvent if visitors > 250
+        if (movie.VisitorCount > 250)
+        {
+            OnGiveAwardEvent(movie);
+        }
+    }
+
+    protected virtual void OnGiveAwardEvent(Movie movie)
+    {
+        // Give each actor an award first
+        foreach (Actor actor in movie.Actors)
+        {
+            actor.AddAward(1);
+        }
+
+        // Then raise the event so the handler sees the updated count
+        GiveAwardEvent?.Invoke(this, movie);
     }
 }

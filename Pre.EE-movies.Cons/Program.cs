@@ -193,12 +193,46 @@ class Program
         {
             Console.WriteLine($"{animation.Title} - {animation.AnimationStudio}");
         }
-         // 3d
+
+        // 3d
         List<Animation> threeDAnimations = animations.GetAllAnimationMoviesByAnimationType(AnimationType.ThreeD);
         Console.WriteLine("3D Animations:");
         foreach (Animation animation in threeDAnimations)
         {
             Console.WriteLine($"{animation.Title} - {animation.AnimationStudio}");
+        }
+
+        // Events
+        cinema.GiveAwardEvent += (_, movie) =>
+        {
+            Console.WriteLine($"Award event triggered for movie: {movie.Title}");
+            foreach (Actor a in movie.Actors)
+            {
+                Console.WriteLine($"Actor {a.Name} received 1 award and now has {a.AwardsCount} awards.");
+            }
+        };
+
+// Set visitor count close to 250 BEFORE playing the movie
+        inception.SetVisitorCount(245);
+
+        try
+        {
+            cinema.PlayMovie("Inception");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to play Inception: {ex.Message}");
+        }
+
+// Now set it to a higher value if needed
+        inception.SetVisitorCount(300);
+        try
+        {
+            cinema.PlayMovie("Inception");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to play Inception: {ex.Message}");
         }
     }
 
