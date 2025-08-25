@@ -23,16 +23,16 @@ public class Cinema : ICinema
         CinemaName = name;
     }
     
+    public void AddMovie(IMovie movie)
+    {
+        MovieService.AddMovie((Movie)movie);
+    }
 
     public List<IMovie> LoadMoviesAsync(string path, string format)
     {
         throw new NotImplementedException();
     }
 
-    public void AddMovie(IMovie movie)
-    {
-        throw new NotImplementedException();
-    }
 
     public void PlayMovie(string title)
     {

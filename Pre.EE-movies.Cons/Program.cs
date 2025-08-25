@@ -132,7 +132,7 @@ class Program
         Console.WriteLine($"After release: {tripleX.ReleaseDate}");
 
         // Cinema tests
-        
+
         // Create a MovieService instance
         List<Movie> cinemaMovies = new List<Movie> { inception, surfsUp, fridayThe13Th, tokyoDrift };
         MovieService cinemaMovieService =
@@ -144,7 +144,19 @@ class Program
 
         cinema.SetCinemaName("Cinefilm");
         Console.WriteLine($"Updated Cinema Name: {cinema.CinemaName}");
-    }
+
+        // Test AddMovie with a new movie
+        Movie newCinemaMovie = new Movie("Django", "Drama", DateTime.Now, 12, director);
+        try
+        {
+            cinema.AddMovie(newCinemaMovie);
+            Console.WriteLine($"{newCinemaMovie.Title} added successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to add New Cinema Movie: {ex.Message}");
+        }
+}
 
     private void DisplayMovieDetails(Movie movie)
     {
