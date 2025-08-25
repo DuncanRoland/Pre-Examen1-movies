@@ -254,6 +254,21 @@ class Program
         {
             Console.WriteLine($"Failed to add Interstellar: {ex.Message}");
         }
+        
+        // PlayMovieEvent subscription
+        cinema.PlayMovieEvent += cinema.ShowAds;
+        cinema.PlayMovieEvent += cinema.SellFood;
+        
+        // Play a movie to see the events in action
+        try
+        {
+            cinema.PlayMovie("Interstellar");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to play Interstellar: {ex.Message}");
+        }
+
     }
 
     private void DisplayMovieDetails(Movie movie)

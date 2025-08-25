@@ -13,6 +13,7 @@ public class Cinema : ICinema
     // Event for giving awards
     public event EventHandler<Movie> GiveAwardEvent;
     public event EventHandler<NewMovieEventArgs> NewMovieEvent;
+    public event EventHandler<PlayMovieEventArgs> PlayMovieEvent;
 
 
     public Cinema(string cinemaName, MovieService movieService)
@@ -51,7 +52,7 @@ public class Cinema : ICinema
             throw new ArgumentException("Title cannot be null or empty.", nameof(title));
 
         // Find the movie by title using MovieService
-        var movie = MovieService.GetMovieByTitle(title);
+        Movie movie = MovieService.GetMovieByTitle(title);
         if (movie == null)
             throw new InvalidOperationException("Movie not found.");
 
@@ -61,15 +62,20 @@ public class Cinema : ICinema
         int visitors = _random.Next(1, 101);
         movie.VisitorCount += visitors;
 
-        var actors = string.Join(", ", movie.Actors.Select(a => a.Name));
+        string actors = string.Join(", ", movie.Actors.Select(actor => actor.Name));
         Console.WriteLine(
-            $"{movie.Title} - {movie.DirectorMovie.Name}: Actors: {actors} - Number of visitors: {movie.VisitorCount}");
-
+            movie.Title + " - " + movie.DirectorMovie.Name + ": Actors: " + actors + " - Number of visitors: " + movie.VisitorCount);
+        
         // Trigger GiveAwardEvent if visitors > 250
         if (movie.VisitorCount > 250)
         {
             OnGiveAwardEvent(movie);
         }
+        
+        // Trigger PlayMovieEvent
+        DateTime startTime = DateTime.Now;
+        PlayMovieEvent?.Invoke(this, new PlayMovieEventArgs(movie.Title, startTime));
+
     }
 
     protected virtual void OnGiveAwardEvent(Movie movie)
@@ -82,5 +88,16 @@ public class Cinema : ICinema
 
         // Then raise the event so the handler sees the updated count
         GiveAwardEvent?.Invoke(this, movie);
+    }
+    
+    // Example handlers (can be registered in Program.cs)
+    public void ShowAds(object? sender, PlayMovieEventArgs e)
+    {
+        Console.WriteLine($"Show ad for movie: {e.MovieName}. Starttime: {e.StartTime}");
+    }
+
+    public void SellFood(object? sender, PlayMovieEventArgs e)
+    {
+        Console.WriteLine($"Sell food for movie: {e.MovieName}. Starttime: {e.StartTime}");
     }
 }
