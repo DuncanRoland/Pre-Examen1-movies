@@ -1,5 +1,6 @@
-﻿using Pre.EE_movies.Core.Enums;
+﻿using Pre.EE_movies.Core.Extensions;
 using Pre.EE_movies.DLL.Interfaces;
+using AnimationType = Pre.EE_movies.Core.Enums.AnimationType;
 
 namespace Pre.EE_movies.Core.Movies;
 

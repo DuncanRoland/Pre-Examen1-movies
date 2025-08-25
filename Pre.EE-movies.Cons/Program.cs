@@ -1,6 +1,9 @@
-﻿using Pre.EE_movies.Core.Enums;
+﻿using Pre.EE_movies.Core.Extensions;
 using Pre.EE_movies.Core.Movies;
 using Pre.EE_movies.Core.Services;
+using Pre.EE_movies.DLL.Interfaces;
+using Animation = Pre.EE_movies.Core.Movies.Animation;
+using AnimationType = Pre.EE_movies.Core.Enums.AnimationType;
 
 namespace Pre.EE_movies.Cons;
 
@@ -8,7 +11,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var program = new Program();
+        Program program = new Program();
         program.Run();
     }
 
@@ -19,7 +22,7 @@ class Program
         Director directorHorror = new Director("Stanley Kubrick", new DateTime(1980, 5, 16));
 
         // Test CreateNewMovie method
-        var newMovie = director.CreateNewMovie(
+        IMovie newMovie = director.CreateNewMovie(
             "Random Movie",
             "Adventure",
             10
@@ -71,10 +74,16 @@ class Program
         List<Movie> movies = new List<Movie> { inception, surfsUp, fridayThe13Th, tokyoDrift };
         movies.Sort();
         Console.WriteLine("Movies sorted by release date:");
-        foreach (var movie in movies)
+        foreach (Movie movie in movies)
         {
             Console.WriteLine($"{movie.Title} - {movie.ReleaseDate.ToShortDateString()}");
         }
+        
+        // Horror test
+        Horror horrorMovie = new Horror("Scary Movie", "Horror", new DateTime(2020, 10, 31), 18, director, 8); // VALID
+        //Horror horrorMovieInvalid = new Horror("Bad Example", "Horror", DateTime.Now, 18, director, 15); // THROWS EXCEPTION           
+        Console.WriteLine($"Horror Movie: {horrorMovie.Title}, Scare Factor: {horrorMovie.ScareFactor}");
+        // Console.WriteLine($"Horror Movie: {horrorMovieInvalid.Title}, Scare Factor: {horrorMovieInvalid.ScareFactor}");
     }
 
     private void DisplayMovieDetails(Movie movie)

@@ -1,4 +1,5 @@
-﻿using Pre.EE_movies.Core.Movies;
+﻿using Pre.EE_movies.Core.Extensions;
+using Pre.EE_movies.Core.Movies;
 
 namespace Pre.EE_movies.Core.Interfaces;
 
